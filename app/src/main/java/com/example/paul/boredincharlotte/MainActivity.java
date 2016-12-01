@@ -11,7 +11,8 @@ public class MainActivity extends AppCompatActivity {
             "Mercury",
             "Uranus",
             "Earth",
-            "Mars"
+            "Mars",
+            "Pluto"
     };
     private DrawerLayout mDrawerLayout;
     private ListView mDrawerList;
