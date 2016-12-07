@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import static java.lang.System.out;
 
@@ -37,7 +38,14 @@ public class MainActivity extends AppCompatActivity {
         mDrawerList.setAdapter(new ArrayAdapter<String>(this,
                 R.layout.drawer_list_item, mPlanetTitles));
 
-
+        mDrawerList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                int position = (int) l;
+                Toast toast = Toast.makeText(view.getContext(), mPlanetTitles[position], Toast.LENGTH_SHORT);
+                toast.show();
+            }
+        });
 
     }
 
