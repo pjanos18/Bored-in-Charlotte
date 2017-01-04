@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="246dp"
+        app:srcCompat="@drawable/skyline"
+        android:id="@+id/imageView3" />
+
+    <TextView
+        android:text="                         Charlotte, NC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_weight="0.09"
+        android:textAppearance="@android:style/TextAppearance.Large" />
+
+    <TextView
+        android:text="Charlotte is the biggest city in North Carolina and has tons of things to do. Whether it's taking a hike at Crowder's Mountain, Braving the tides at the Whitewater Center, or Watching the Panther's game there is plenty of stuff to do that will not leave you Bored in Charlotte."
+        android:layout_width="match_parent"
+        android:layout_height="237dp"
+        android:id="@+id/textView3" />
+
+</LinearLayout>
