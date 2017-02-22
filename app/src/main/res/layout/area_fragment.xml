@@ -14,10 +14,11 @@
             android:orientation="vertical" >
 
             <ImageButton
-                android:layout_width="match_parent"
+                android:layout_width="426dp"
                 android:layout_height="234dp"
                 app:srcCompat="@drawable/davidson"
-                android:id="@+id/imageButton" />
+                android:id="@+id/imageButton"
+                android:scaleType="centerCrop" />
 
             <TextView
                 android:text="Davidson, NC"
@@ -26,11 +27,20 @@
                 android:id="@+id/textView22"
                 android:textAppearance="@android:style/TextAppearance.Holo.Large" />
 
+            <TextView
+                android:text='A cute little college town that is home to Davidson College. Every year they host "Christmas in Davidson".'
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView27" />
+
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="196dp"
                 app:srcCompat="@drawable/winstonsalemskyline"
-                android:id="@+id/imageView17" />
+                android:id="@+id/imageView17"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:cropToPadding="true" />
 
             <TextView
                 android:text="Winston Salem, NC"

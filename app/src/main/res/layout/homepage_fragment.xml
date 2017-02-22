@@ -22,7 +22,22 @@
     <TextView
         android:text="Charlotte is the biggest city in North Carolina and has tons of things to do. Whether it's taking a hike at Crowder's Mountain, Braving the tides at the Whitewater Center, or Watching the Panther's game there is plenty of stuff to do that will not leave you Bored in Charlotte."
         android:layout_width="match_parent"
-        android:layout_height="237dp"
+        android:layout_height="131dp"
         android:id="@+id/textView3" />
+
+    <TextView
+        android:text="Weather for February 27th - Partly Cloudy - High of 69 Low of 46, 10% chance of Rain "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView32"
+        android:layout_weight="0.84"
+        android:textAppearance="@android:style/TextAppearance.Holo.Large" />
+
+    <TextView
+        android:text="Swipe Right to access the menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView33"
+        android:textAppearance="@android:style/TextAppearance.Holo.Large" />
 
 </LinearLayout>

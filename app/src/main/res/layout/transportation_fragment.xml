@@ -1,6 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:weightSum="1">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/cats"
+        android:id="@+id/imageView21" />
+
+    <TextView
+        android:text="Charlotte Area Transit System"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView24"
+        android:textAppearance="@android:style/TextAppearance.Holo.Large"
+        android:layout_weight="0.08" />
+
+    <TextView
+        android:text="CATS control the transportation in Charlotte, including the Bus system and the Light Rail system"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView26" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="263dp"
+        app:srcCompat="@drawable/bcycle"
+        android:id="@+id/imageView22"
+        android:layout_weight="0.05" />
+
+    <TextView
+        android:text="Charlotte B-cycle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView25"
+        android:textAppearance="@android:style/TextAppearance.Holo.Large" />
+
+    <TextView
+        android:text="Charlotte's B-cycle program is a bike sharing system where a person can rent a bike for 24 hours for a low cost as long as they check in with other stations every hour."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView28" />
 </LinearLayout>

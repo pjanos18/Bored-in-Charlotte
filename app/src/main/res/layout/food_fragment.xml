@@ -30,6 +30,13 @@
                 android:textAppearance="@android:style/TextAppearance.Holo.Large"
                 android:layout_weight="0.05" />
 
+            <TextView
+                android:text="One of the best places to get Fried Chicken in Charlotte. Be warned though, there is usually long lines."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView29"
+                android:layout_weight="0.05" />
+
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="226dp"
@@ -44,6 +51,13 @@
                 android:id="@+id/textView15"
                 android:layout_weight="0.05"
                 android:textAppearance="@android:style/TextAppearance.Holo.Large" />
+
+            <TextView
+                android:text="Amelie's has a bunch of locations in the Charlotte area. It is a french style bakery with famous carmel salted brownies."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView30"
+                android:layout_weight="0.05" />
         </LinearLayout>
     </ScrollView>
 

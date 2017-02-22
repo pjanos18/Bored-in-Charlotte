@@ -29,6 +29,12 @@
                 android:id="@+id/textView16"
                 android:textAppearance="@android:style/TextAppearance.Holo.Large" />
 
+            <TextView
+                android:text="A great place to spend the entire day. Include white water rafting, trails, rock climbing, an obstacle course, and much more. Parking is $5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView44" />
+
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -44,6 +50,12 @@
                 android:id="@+id/textView20"
                 android:textAppearance="@android:style/TextAppearance.Holo.Large" />
 
+            <TextView
+                android:text="The place for thrill seekers. Most recently they built the record breaking Fury 325 and other coasters including the Intimidator."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView45" />
+
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -58,6 +70,18 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/textView21"
                 android:textAppearance="@android:style/TextAppearance.Holo.Large" />
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView46" />
+
+            <TextView
+                android:text="A great place for hiking with many trails available to hike."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView47" />
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

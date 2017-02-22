@@ -18,7 +18,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="158dp"
                 app:srcCompat="@drawable/bankofamericastadium"
-                android:id="@+id/imageView7" />
+                android:id="@+id/imageView7"
+                android:scaleType="centerCrop" />
 
             <TextView
                 android:text="Carolina Panthers"
@@ -27,12 +28,21 @@
                 android:id="@+id/textView10"
                 android:textAppearance="@android:style/TextAppearance.Holo.Large" />
 
+            <TextView
+                android:text="The Carolina's own NFL Team. Known for appearing most recently in Super Bowl 50. After last year's disapointing season, things will hopefully go better for them next season."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView38" />
+
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="167dp"
                 app:srcCompat="@drawable/hornets"
                 android:id="@+id/imageView8"
-                android:layout_weight="0.20" />
+                android:layout_weight="0.20"
+                android:cropToPadding="true"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop" />
 
             <TextView
                 android:text="Charlotte Hornets"
@@ -41,13 +51,20 @@
                 android:id="@+id/textView11"
                 android:textAppearance="@android:style/TextAppearance.Holo.Large" />
 
+            <TextView
+                android:text="Previously called the Charlotte Bobcats, the Hornets re-swarmed Charlotte and have been playing better than they ever have."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView39" />
+
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:srcCompat="@drawable/knights"
                 android:id="@+id/imageView13"
                 android:adjustViewBounds="true"
-                android:cropToPadding="true" />
+                android:cropToPadding="true"
+                android:scaleType="centerCrop" />
 
             <TextView
                 android:text="Charlotte Knights"
@@ -55,11 +72,18 @@
                 android:layout_height="wrap_content"
                 android:textAppearance="@android:style/TextAppearance.Holo.Large" />
 
+            <TextView
+                android:text="Nothing better than a good baseball game."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView40" />
+
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:srcCompat="@drawable/independence"
-                android:id="@+id/imageView14" />
+                android:id="@+id/imageView14"
+                android:scaleType="centerCrop" />
 
             <TextView
                 android:text="Charlotte Independence"
@@ -67,6 +91,12 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/textView17"
                 android:textAppearance="@android:style/TextAppearance.Holo.Large" />
+
+            <TextView
+                android:text="A soccer team located in Charlotte, that has a small but passionate fan base."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView41" />
 
             <ImageView
                 android:layout_width="match_parent"
@@ -82,6 +112,12 @@
                 android:id="@+id/textView18"
                 android:textAppearance="@android:style/TextAppearance.Holo.Large" />
 
+            <TextView
+                android:text="Located in the Bojangle's Collesium. These hockey games always fun to attend and tickets tend to be very cheap."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView42" />
+
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -95,6 +131,12 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/textView19"
                 android:textAppearance="@android:style/TextAppearance.Holo.Large" />
+
+            <TextView
+                android:text="Charlotte's Lacrosse team."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView43" />
 
         </LinearLayout>
     </ScrollView>
