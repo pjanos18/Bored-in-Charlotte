@@ -20,7 +20,10 @@
                 android:layout_height="212dp"
                 app:srcCompat="@drawable/uptown"
                 android:id="@+id/imageView4"
-                android:clickable="true" />
+                android:clickable="true"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:cropToPadding="true" />
 
             <TextView
                 android:text="Uptown"
@@ -40,7 +43,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="205dp"
                 app:srcCompat="@drawable/noda"
-                android:id="@+id/imageView5" />
+                android:id="@+id/imageView5"
+                android:scaleType="centerCrop" />
 
             <TextView
                 android:text="Noda"
@@ -60,7 +64,9 @@
                 android:layout_height="172dp"
                 app:srcCompat="@drawable/plazamidwood"
                 android:id="@+id/imageView6"
-                android:scaleType="centerCrop" />
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:cropToPadding="true" />
 
             <TextView
                 android:text="Plaza Midwood"
@@ -96,7 +102,9 @@
                 app:srcCompat="@drawable/ucity"
                 android:id="@+id/imageView10"
                 android:layout_weight="0.00"
-                android:scaleType="centerCrop" />
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:cropToPadding="true" />
 
             <TextView
                 android:text="University City"

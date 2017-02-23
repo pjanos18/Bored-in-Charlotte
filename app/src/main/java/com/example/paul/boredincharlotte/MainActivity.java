@@ -24,7 +24,6 @@ public class MainActivity extends AppCompatActivity {
             "Public Transportation",
             "Surrounding Area",
             "Sports",
-            "Other Sources",
             "Happening This Week"
     };
     private DrawerLayout mDrawerLayout;
@@ -94,10 +93,9 @@ public class MainActivity extends AppCompatActivity {
             case "Sports":
                 fragment = new SportsFragment();
                 break;
-//            case "Other Sources":
-//                break;
- //           case "Happening This Week":
- //           break;
+            case "Happening This Week":
+                fragment = new ThisweekFragment();
+            break;
             default:
                 fragment = new DemoFragment();
                 break;

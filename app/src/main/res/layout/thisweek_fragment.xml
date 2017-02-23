@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:text="Free Events in Charlotte Today"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView48"
+        android:textAppearance="@android:style/TextAppearance.Holo.Large"
+        android:textStyle="normal|bold"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center" />
+
+    <TextView
+        android:text="Monday February 27th -"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView57"
+        android:textAppearance="@android:style/TextAppearance.Holo.Large" />
+
+    <TextView
+        android:text="5pm- Free Film screening of Birth of a Nation at Sugar Creek Library"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView58"
+        android:textAppearance="@android:style/TextAppearance.Holo.Large"
+        android:layout_weight="0.02" />
+
+    <TextView
+        android:text="6pm- Destination Freedom: The history of civil rights at Steele Creek Library"
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:id="@+id/textView59"
+        android:textAppearance="@android:style/TextAppearance.Holo.Large"
+        android:layout_weight="0.07" />
+
+    <TextView
+        android:text="6:30pm- Boot Camp fitness class held by Randy Moss"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView60"
+        android:textAppearance="@android:style/TextAppearance.Holo.Large"
+        android:layout_weight="0.05" />
+
+    <TextView
+        android:text="7:30pm- Trivia Night at Summit Coffee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView61"
+        android:textAppearance="@android:style/TextAppearance.Holo.Large"
+        android:layout_weight="0.07" />
+
+    <TextView
+        android:text="Events gathered from charlotteonthecheap.com"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView62" />
+
+</LinearLayout>

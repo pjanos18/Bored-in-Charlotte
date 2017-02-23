@@ -16,11 +16,12 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 app:srcCompat="@drawable/whitewater"
                 android:id="@+id/imageView18"
                 android:cropToPadding="true"
-                android:adjustViewBounds="true" />
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop" />
 
             <TextView
                 android:text="U.S. National Whitewater Center"
@@ -37,7 +38,7 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 app:srcCompat="@drawable/carowinds"
                 android:id="@+id/imageView19"
                 android:adjustViewBounds="true"
@@ -58,7 +59,7 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 app:srcCompat="@drawable/crowders"
                 android:id="@+id/imageView20"
                 android:adjustViewBounds="true"

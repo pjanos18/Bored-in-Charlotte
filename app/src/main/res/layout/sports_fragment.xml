@@ -103,7 +103,9 @@
                 android:layout_height="wrap_content"
                 app:srcCompat="@drawable/checkers"
                 android:id="@+id/imageView15"
-                android:adjustViewBounds="true" />
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:cropToPadding="true" />
 
             <TextView
                 android:text="Charlotte Checkers"
