@@ -17,11 +17,10 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="212dp"
-                app:srcCompat="@drawable/uptown"
-                android:id="@+id/imageView4"
-                android:clickable="true"
-                android:scaleType="centerCrop"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/uptown3"
+                android:id="@+id/imageView23"
+                android:layout_weight="0.01"
                 android:adjustViewBounds="true"
                 android:cropToPadding="true" />
 
@@ -61,19 +60,26 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="172dp"
-                app:srcCompat="@drawable/plazamidwood"
-                android:id="@+id/imageView6"
-                android:scaleType="centerCrop"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/plazamidwood2"
+                android:id="@+id/imageView18"
+                android:layout_weight="0.01"
                 android:adjustViewBounds="true"
                 android:cropToPadding="true" />
 
             <TextView
                 android:text="Plaza Midwood"
                 android:layout_width="match_parent"
-                android:layout_height="46dp"
+                android:layout_height="34dp"
                 android:id="@+id/textView9"
                 android:textAppearance="@android:style/TextAppearance.Holo.Large" />
+
+            <TextView
+                android:text="Filled with plenty of shops, art galleries and restaurants, you could easily spend your whole day here."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView65"
+                android:layout_weight="0.01" />
 
             <ImageView
                 android:layout_width="match_parent"

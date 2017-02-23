@@ -16,12 +16,11 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                app:srcCompat="@drawable/whitewater"
-                android:id="@+id/imageView18"
-                android:cropToPadding="true"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/usnwc"
+                android:id="@+id/imageView24"
                 android:adjustViewBounds="true"
-                android:scaleType="centerCrop" />
+                android:cropToPadding="true" />
 
             <TextView
                 android:text="U.S. National Whitewater Center"
@@ -73,16 +72,32 @@
                 android:textAppearance="@android:style/TextAppearance.Holo.Large" />
 
             <TextView
-                android:text="TextView"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/textView46" />
-
-            <TextView
                 android:text="A great place for hiking with many trails available to hike."
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView47" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/beach"
+                android:id="@+id/imageView12"
+                android:adjustViewBounds="true"
+                android:cropToPadding="true"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:text="Ramsey Creek Park"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView46"
+                android:textAppearance="@android:style/TextAppearance.Holo.Large" />
+
+            <TextView
+                android:text="Located in Cornelius, it is one of the two public beaches for Lake Norman (the other one is at Lake Norman State Park in Troutman)"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView52" />
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

@@ -58,6 +58,102 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView7" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/mint"
+                android:id="@+id/imageView6"
+                android:adjustViewBounds="true"
+                android:cropToPadding="true" />
+
+            <TextView
+                android:text="Mint Museum Uptown"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView76"
+                android:textAppearance="@android:style/TextAppearance.Large"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:text="An art museum that rests in Uptown Charlotte"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView77" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/discovery"
+                android:id="@+id/imageView15"
+                android:adjustViewBounds="true"
+                android:cropToPadding="true" />
+
+            <TextView
+                android:text="Discovery Place"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView78"
+                android:textAppearance="@android:style/TextAppearance.Large"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:text="A place that lives and breathes science. Currently they have an exhibit showcasing Genghis Khan."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView79" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/levine"
+                android:id="@+id/imageView25"
+                android:adjustViewBounds="true"
+                android:cropToPadding="true" />
+
+            <TextView
+                android:text="Levine Museum of the New South"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView80"
+                android:textAppearance="@android:style/TextAppearance.Large"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:text="A museum that focuses on life in the Charlotte Area after the Civil War."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView81" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/aviation"
+                android:id="@+id/imageView26"
+                android:adjustViewBounds="true"
+                android:cropToPadding="true" />
+
+            <TextView
+                android:text="The Carolinas Aviation Museum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView82"
+                android:textAppearance="@android:style/TextAppearance.Large"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:text="Located next to Charlotte Douglass International Airport, this museum showcases many different planes new and old."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView83" />
         </LinearLayout>
     </ScrollView>
 

@@ -17,6 +17,36 @@
             android:orientation="vertical" >
 
             <TextView
+                android:text="Food and Drinks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView66"
+                android:textAppearance="@android:style/TextAppearance.Holo.Large"
+                android:layout_weight="0.05" />
+
+            <TextView
+                android:text="These are just a few examples of the great places you can choose to eat at in Charlotte."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView67"
+                android:layout_weight="0.05" />
+
+            <TextView
+                android:text="Fig Tree Restaurant - 1601 E 7th St, Charlotte, NC 28204"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView74"
+                android:textAppearance="@android:style/TextAppearance.Holo.Large"
+                android:layout_weight="0.05" />
+
+            <TextView
+                android:text="This place is ranked the #1 Restaurant in Charlotte on Tripadvisor."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView75"
+                android:layout_weight="0.05" />
+
+            <TextView
                 android:text="Price's Chicken Coop - 1614 Camden Rd"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -44,6 +74,96 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView30"
+                android:layout_weight="0.05" />
+
+            <TextView
+                android:text="Abari- 1721 N Davidson St, Charlotte, NC 28206"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView53"
+                android:textAppearance="@android:style/TextAppearance.Holo.Large"
+                android:layout_weight="0.05" />
+
+            <TextView
+                android:text='A "Barcade" where you can play arcade games and drink. '
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView54"
+                android:layout_weight="0.05" />
+
+            <TextView
+                android:text="Not Just Coffee"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView55"
+                android:textAppearance="@android:style/TextAppearance.Holo.Large"
+                android:layout_weight="0.05" />
+
+            <TextView
+                android:text="Arguably the best coffee you can get in Charlotte, Not Just Coffee has three locations. "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView56"
+                android:layout_weight="0.05" />
+
+            <TextView
+                android:text="Midnight Diner - 115 E Carson Blvd, Charlotte, NC 28203-4030"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView63"
+                android:textAppearance="@android:style/TextAppearance.Holo.Large"
+                android:layout_weight="0.05" />
+
+            <TextView
+                android:text="Open 24 hours, like a Waffle House but better."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView64"
+                android:layout_weight="0.05" />
+
+            <TextView
+                android:text="Kindred - 131 N Main St, Davidson, NC 28036"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView68"
+                android:textAppearance="@android:style/TextAppearance.Holo.Large"
+                android:layout_weight="0.05" />
+
+            <TextView
+                android:text='Located in the heart of Downtown Davidson, Kindred "showcases unique takes on American Classics" '
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView69"
+                android:layout_weight="0.05" />
+
+            <TextView
+                android:text="Fahrenheit - 222 S Caldwell St, Charlotte, NC 28202-2793"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView72"
+                android:textAppearance="@android:style/TextAppearance.Holo.Large"
+                android:layout_weight="0.05" />
+
+            <TextView
+                android:text="Great dining with a huge price tag, but it comes with a nice view of the city."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView73"
+                android:layout_weight="0.05" />
+
+            <TextView
+                android:text="Bojangles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView70"
+                android:textAppearance="@android:style/TextAppearance.Holo.Large"
+                android:layout_weight="0.05" />
+
+            <TextView
+                android:text="If you're looking for fine dining, look somewhere else. Bojangles is a franchise that started in Charlotte, NC. They have some of the best fried chicken you can get at a fast food restaurant, and their biscuits are great as well. Make sure to pick up sweet tea or Cheerwine while your there."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView71"
                 android:layout_weight="0.05" />
         </LinearLayout>
     </ScrollView>

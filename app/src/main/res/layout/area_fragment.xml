@@ -48,6 +48,33 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/textView23"
                 android:textAppearance="@android:style/TextAppearance.Holo.Large" />
+
+            <TextView
+                android:text="An hour drive from Charlotte, Winston Salem is a small one of a kind city."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView51" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/lexington"
+                android:id="@+id/imageView11"
+                android:adjustViewBounds="true"
+                android:cropToPadding="true" />
+
+            <TextView
+                android:text="Lexington, NC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView49"
+                android:textAppearance="@android:style/TextAppearance.Holo.Large"/>
+
+            <TextView
+                android:text="Lexington is known for their unique BBQ that combines both Eastern and Western NC BBQ into one delicious dish. Holds the Lexington BBQ Festival every year."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView50" />
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
